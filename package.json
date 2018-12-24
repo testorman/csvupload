@@ -1,0 +1,19 @@
+{
+  "name": "cvsupload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-fileupload": "^1.0.0",
+    "fast-csv": "^2.4.1",
+    "json2csv": "^4.3.2",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.4.0"
+  }
+}
